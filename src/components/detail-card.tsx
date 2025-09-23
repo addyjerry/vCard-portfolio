@@ -1,26 +1,64 @@
 import React from "react";
-import { Card, CardHeader, CardTitle, CardDescription } from "./ui/card";
+import { Card } from "./ui/card";
+
+import { Tabs } from "./ui/tabs";
+import { TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import About from "./about";
+import Resume from "./resume";
+import Projects from "./projects";
+import Blog from "./blog";
+import Contact from "./contact";
 
 const DetailCard = () => {
   return (
-    <div>
-      <Card className="w-6xl p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg text-center justify-center ml-10">
-        <CardHeader>
-          <CardTitle>About</CardTitle>
-
-          <CardDescription>
-            I am Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs. My job is to
-            build your website so that it is functional and user-friendly but at
-            the same time attractive. Moreover, I add personal touch to your
-            product and make sure that is eye-catching and easy to use. My aim
-            is to bring across your message and identity in the most creative
-            way. I created web design for many famous brand companies.
-          </CardDescription>
-        </CardHeader>
-      </Card>
-    </div>
+    <Card className="w-6xl overflow-hidden text-left p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg justify-center place-self-center  ml-100 max-w-[820px]">
+      <Tabs>
+        <TabsList className="justify-end top-0 p-5 flex shadow-none gap-5 font-bold rounded-b-xl">
+          <TabsTrigger
+            value="about"
+            className="shadow-none bg-none p-auto mx-2"
+          >
+            About
+          </TabsTrigger>
+          <TabsTrigger
+            value="resume"
+            className="shadow-none bg-none p-auto mx-2"
+          >
+            Resume
+          </TabsTrigger>
+          <TabsTrigger
+            value="projects"
+            className="shadow-none bg-none p-auto mx-2"
+          >
+            Projects
+          </TabsTrigger>
+          <TabsTrigger value="blog" className="shadow-none bg-none p-auto mx-2">
+            Blog
+          </TabsTrigger>
+          <TabsTrigger
+            value="contact"
+            className="shadow-none bg-none p-auto mx-2"
+          >
+            Contact
+          </TabsTrigger>
+        </TabsList>
+        <TabsContent value="about">
+          <About />
+        </TabsContent>
+        <TabsContent value="resume">
+          <Resume />
+        </TabsContent>
+        <TabsContent value="projects">
+          <Projects />
+        </TabsContent>
+        <TabsContent value="blog">
+          <Blog />
+        </TabsContent>
+        <TabsContent value="contact">
+          <Contact />
+        </TabsContent>
+      </Tabs>
+    </Card>
   );
 };
 
