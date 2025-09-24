@@ -16,28 +16,31 @@ const DetailCard = () => {
         <TabsList className="justify-end top-0 p-5 flex shadow-none gap-5 font-bold rounded-b-xl">
           <TabsTrigger
             value="about"
-            className="shadow-none bg-none p-auto mx-2"
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400 "
           >
             About
           </TabsTrigger>
           <TabsTrigger
             value="resume"
-            className="shadow-none bg-none p-auto mx-2"
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400"
           >
             Resume
           </TabsTrigger>
           <TabsTrigger
             value="projects"
-            className="shadow-none bg-none p-auto mx-2"
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400"
           >
             Projects
           </TabsTrigger>
-          <TabsTrigger value="blog" className="shadow-none bg-none p-auto mx-2">
+          <TabsTrigger
+            value="blog"
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400"
+          >
             Blog
           </TabsTrigger>
           <TabsTrigger
             value="contact"
-            className="shadow-none bg-none p-auto mx-2"
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400"
           >
             Contact
           </TabsTrigger>

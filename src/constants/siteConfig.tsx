@@ -83,3 +83,9 @@ export const clients = [
   "/svgs/logo-5-color.png",
   "/svgs/logo-6-color.png",
 ];
+
+export const svgs = {
+  React: {
+    image: "",
+  },
+};
