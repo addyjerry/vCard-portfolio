@@ -71,6 +71,7 @@ const About = () => {
             width={100}
             height={100}
             key={index}
+            className="w-auto h-auto"
           />
         ))}
       </CardContent>
