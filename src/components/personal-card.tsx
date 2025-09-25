@@ -18,7 +18,7 @@ const PersonalCard = () => {
             alt="Profile Picture"
             width={200}
             height={200}
-            className="place-self-center w-40"
+            className="place-self-center w-40 hover:animate-bounce"
           />
         </Card>
         <div className="flex flex-col ">
