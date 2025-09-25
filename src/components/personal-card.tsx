@@ -3,14 +3,7 @@ import React, { useState } from "react";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import Image from "next/image";
 import { personal } from "@/constants/siteConfig";
-import {
-  ArrowBigDown,
-  ChevronDown,
-  Github,
-  Linkedin,
-  X,
-  Youtube,
-} from "lucide-react";
+import { ChevronDown, Github, Linkedin, X, Youtube } from "lucide-react";
 import Link from "next/link";
 
 const PersonalCard = () => {
@@ -26,6 +19,7 @@ const PersonalCard = () => {
             width={200}
             height={200}
             className="place-self-center w-40 hover:animate-bounce"
+            priority
           />
         </Card>
         <div className="flex flex-col ">
