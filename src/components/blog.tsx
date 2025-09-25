@@ -5,11 +5,12 @@ const Blog = () => {
   return (
     <div>
       <CardTitle className="text-4xl -mt-15">Blog</CardTitle>
-      <div className="bg-amber-400 w-10 h-2 rounded-2xl"></div>
-      Blog Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-      corporis natus possimus, fugiat quas nisi necessitatibus quae! Sapiente
-      vero totam cupiditate deserunt impedit velit laboriosam pariatur eos
-      veniam cum? Velit!
+      <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10"></div>
+      <main className="w-full h-screen justify-center p-5">
+        <p className="justify-center text-6xl font-extrabold text-center mt-50">
+          Blog is Coming soon...
+        </p>
+      </main>
     </div>
   );
 };

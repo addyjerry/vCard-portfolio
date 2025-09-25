@@ -11,7 +11,7 @@ import Contact from "./contact";
 
 const DetailCard = () => {
   return (
-    <Card className="w-6xl overflow-hidden text-left p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg justify-center place-self-center  ml-100 max-w-[820px]">
+    <Card className="overflow-hidden text-left p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg justify-center place-self-center  xl:ml-100 max-w-[820px]">
       <Tabs>
         <TabsList className="justify-end top-0 p-5 flex shadow-none gap-5 font-bold rounded-b-xl">
           <TabsTrigger

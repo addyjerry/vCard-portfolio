@@ -2,10 +2,12 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
 import { personal } from "@/constants/siteConfig";
+import { Github, Linkedin, X, Youtube } from "lucide-react";
+import Link from "next/link";
 
 const PersonalCard = () => {
   return (
-    <Card className="-mt-90 fixed p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg text-center justify-center max-w-[350px]">
+    <Card className="top-20 fixed p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg text-center justify-center max-w-[350px]">
       <CardHeader>
         <Image
           src="/my-avatar.png"
@@ -19,7 +21,20 @@ const PersonalCard = () => {
           <span className="text-sm bg-gray-500 dark:text-gray-400 text-center rounded-md px-2 py-1 ">
             Web Developer
           </span>
-          {/* <Earthanimation /> */}
+          <div className="flex gap-3 mt-2 text-center justify-center items-center">
+            <Link href="https://github.com/addyjerry">
+              <Github />
+            </Link>
+            <Link href="https://www.linkedin.com/in/jerry-addy-193437249/">
+              <Linkedin />
+            </Link>
+            <Link href="https://x.com/JayCodes27">
+              <X />
+            </Link>
+            <Link href="https://www.youtube.com/c/addyjerry">
+              <Youtube />
+            </Link>
+          </div>
         </div>
       </CardHeader>
 

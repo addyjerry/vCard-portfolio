@@ -1,4 +1,15 @@
+import {
+  NextJSIcon,
+  NodeJS,
+  ReactIcon,
+  Redux,
+  Sanity,
+  Tailwind,
+  Zustand,
+} from "@/icons/icons";
 import { Calendar, LocationEditIcon, Mail, Phone } from "lucide-react";
+import { title } from "process";
+import React from "react";
 export const personal = {
   email: {
     title: "EMAIL",
@@ -84,8 +95,88 @@ export const clients = [
   "/svgs/logo-6-color.png",
 ];
 
-export const svgs = {
-  React: {
-    image: "",
+export const projects = [
+  {
+    title: "Movie Streaming Website",
+    description:
+      "A full-featured movie streaming website built with React and Node.js, featuring user authentication, video management, and a secure payment gateway.",
+    image: "/projects/kdn.PNG",
+    link: "https://kdnplus.com/landing",
+    name: "KDN PLUS",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+      <NodeJS key={2} />,
+      <Zustand key={3} />,
+    ],
   },
-};
+  {
+    title: "Ecommerce Website",
+    description:
+      "A full-featured ecommerce website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
+    image: "/projects/adom.PNG",
+    link: "https://adomrepairshop.netlify.app/",
+    name: "ADOM REPAIRSHOP",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+      <Zustand key={2} />,
+      <Sanity key={3} />,
+    ],
+  },
+  {
+    title: "Service Ordering Website",
+    description:
+      "A full-featured service ordering website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
+    image: "/projects/azpros.PNG",
+    link: "https://azpros.netlify.app/",
+    name: "AZPROS",
+    techStack: [
+      <ReactIcon key={0} />,
+      <Tailwind key={1} />,
+
+      <Zustand key={2} />,
+    ],
+  },
+  {
+    title: "Movie Website",
+    description:
+      "A full-featured movie downloading website built with React and Node.js, featuring user authentication, video management, and a secure payment gateway.",
+    image: "/projects/watchgh.PNG",
+    link: "https://watchgh.netlify.app/",
+    name: "WATCH GH",
+    techStack: [
+      <ReactIcon key={0} />,
+      <Tailwind key={1} />,
+      <Zustand key={2} />,
+    ],
+  },
+  {
+    title: "Restaurant Website",
+    description:
+      "A full-featured restaurant website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
+    image: "/projects/geritch.PNG",
+    link: "https://gericht-jerry.netlify.app/",
+    name: "GERICHT JERRY",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+
+      <Zustand key={3} />,
+    ],
+  },
+  {
+    title: "AI Note-taking Website",
+    description:
+      "A full-featured AI note-taking website built with React and Node.js, featuring user authentication, note management, and a secure payment gateway.",
+    image: "/projects/noteflow.PNG",
+    link: "https://ainoteflow.netlify.app/",
+    name: "AINOTEFLOW",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+      <ReactIcon key={2} />,
+      <Redux key={3} />,
+    ],
+  },
+];
