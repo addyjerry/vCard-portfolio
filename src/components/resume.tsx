@@ -15,8 +15,8 @@ import { Progress } from "./ui/progress";
 
 const Resume: React.FC = () => (
   <>
-    <CardTitle className="text-4xl -mt-15 ">Resume</CardTitle>
-    <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10"></div>
+    <CardTitle className="text-4xl -mt-15 hidden lg:block">Resume</CardTitle>
+    <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10 hidden lg:block"></div>
     <Timeline
       items={[
         {

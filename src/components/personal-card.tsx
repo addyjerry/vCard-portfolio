@@ -3,14 +3,21 @@ import React, { useState } from "react";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import Image from "next/image";
 import { personal } from "@/constants/siteConfig";
-import { ArrowBigDown, Github, Linkedin, X, Youtube } from "lucide-react";
+import {
+  ArrowBigDown,
+  ChevronDown,
+  Github,
+  Linkedin,
+  X,
+  Youtube,
+} from "lucide-react";
 import Link from "next/link";
 
 const PersonalCard = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <Card className="top-20 fixed p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg text-center justify-center w-full xl:max-w-[350px]  ">
+    <Card className="top-20 xl:fixed p-5 border-2 border-gray-300 dark:border-gray-700 shadow-lg text-center justify-center w-full xl:max-w-[350px]  ">
       <CardHeader className="flex flex-row xl:flex-col gap-3 justify-center items-center">
         <Card className="p-2 w-40">
           <Image
@@ -44,10 +51,10 @@ const PersonalCard = () => {
           </div>
         </div>
         <button
-          className="animate-bounce xl:hidden place-self-center -mt-35 ml-30 -mr-15 border-1 p-2 rounded-sm "
+          className="animate-bounce xl:hidden place-self-end ml-20 -mt-35 -mr-15 border-1 p-2 rounded-sm "
           onClick={() => setShow(!show)}
         >
-          <ArrowBigDown />
+          <ChevronDown />
         </button>
       </CardHeader>
 

@@ -13,8 +13,8 @@ const About = () => {
   return (
     <div>
       <CardHeader>
-        <CardTitle className="text-4xl -mt-15">About</CardTitle>
-        <div className="bg-amber-400 w-10 h-2 rounded-2xl"></div>
+        <CardTitle className="text-4xl -mt-15 hidden lg:block">About</CardTitle>
+        <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden lg:block"></div>
         <CardDescription className="my-5 text-left">
           I am Creative Director and UI/UX Designer from Sydney, Australia,
           working in web development and print media. I enjoy turning complex

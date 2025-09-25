@@ -7,8 +7,10 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div>
-      <CardTitle className="text-4xl -mt-15">Projects</CardTitle>
-      <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10"></div>
+      <CardTitle className="text-4xl -mt-15 hidden lg:block">
+        Projects
+      </CardTitle>
+      <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10 hidden lg:block"></div>
       {/* <CardDescription className="my-5 text-left">
         I am Creative Director and UI/UX Designer from Sydney, Australia,
         working in web development and print media. I enjoy turning complex

@@ -16,7 +16,7 @@ const DetailCard = () => {
         <TabsList className="justify-end top-0 p-5 flex shadow-none gap-5 font-bold rounded-b-xl">
           <TabsTrigger
             value="about"
-            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400 "
+            className="shadow-none bg-none p-auto mx-2 z-20 hover:cursor-pointer hover:text-gray-500 data-[state=active]:text-amber-400 [data-[state=active]:underline-amber-400]"
           >
             About
           </TabsTrigger>
