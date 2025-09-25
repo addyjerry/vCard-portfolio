@@ -69,7 +69,7 @@ const About = () => {
             src={item}
             alt={`Client ${index + 1}`}
             width={100}
-            height={50}
+            height={100}
             key={index}
           />
         ))}
