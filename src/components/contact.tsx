@@ -13,16 +13,16 @@ const Contact = () => {
       <h2 className="text-2xl mt-5 font-bold">Contact Form</h2>
       <div>
         <form className="flex flex-col gap-4 my-5">
-          <div className="flex flex-wrap gap-2 w-full justify-between">
+          <div className="flex flex-col xl:flex-row gap-2 w-full justify-between">
             <input
               type="text"
               placeholder="Jerry Bishop"
-              className="rounded-xl p-2 data-[state=active]:border-amber-400 border-2 w-3xl"
+              className="rounded-xl p-2 data-[state=active]:border-amber-400 border-2 w-full"
             />
             <input
               type="email"
               placeholder="jerry@gmail.com"
-              className="rounded-xl p-2 data-[state=active]:border-amber-400 border-2 w-3xl"
+              className="rounded-xl p-2 data-[state=active]:border-amber-400 border-2 w-full"
             />
           </div>
           <Textarea
