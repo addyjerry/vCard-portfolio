@@ -92,7 +92,6 @@ export const clients = [
   "/svgs/logo-3-color.png",
   "/svgs/logo-4-color.png",
   "/svgs/logo-5-color.png",
-  "/svgs/logo-6-color.png",
 ];
 
 export const projects = [

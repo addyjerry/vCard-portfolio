@@ -16,14 +16,15 @@ const About = () => {
         <CardTitle className="text-4xl -mt-15 hidden xl:block">About</CardTitle>
         <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden xl:block"></div>
         <CardDescription className="my-5 text-left">
-          I am Creative Director and UI/UX Designer from Sydney, Australia,
-          working in web development and print media. I enjoy turning complex
-          problems into simple, beautiful and intuitive designs. My job is to
-          build your website so that it is functional and user-friendly but at
-          the same time attractive. Moreover, I add personal touch to your
-          product and make sure that is eye-catching and easy to use. My aim is
-          to bring across your message and identity in the most creative way. I
-          created web design for many famous brand companies.
+          I am a Frontend Developer based in Accra, Ghana, passionate about
+          building modern, responsive web applications. I specialize in
+          translating design concepts into interactive user experiences using
+          the latest technologies. My focus is on writing clean, maintainable
+          code and crafting interfaces that are both functional and visually
+          appealing. I enjoy solving complex problems and turning ideas into
+          seamless digital products. My goal is to deliver websites and apps
+          that are fast, accessible, and user-friendly, helping brands connect
+          with their audience in meaningful ways.
         </CardDescription>
       </CardHeader>
       <CardTitle className="ml-5 text-2xl">What I do</CardTitle>
