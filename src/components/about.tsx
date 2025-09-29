@@ -13,8 +13,8 @@ const About = () => {
   return (
     <div>
       <CardHeader>
-        <CardTitle className="text-4xl -mt-15 hidden lg:block">About</CardTitle>
-        <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden lg:block"></div>
+        <CardTitle className="text-4xl -mt-15 hidden xl:block">About</CardTitle>
+        <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden xl:block"></div>
         <CardDescription className="my-5 text-left">
           I am Creative Director and UI/UX Designer from Sydney, Australia,
           working in web development and print media. I enjoy turning complex
@@ -63,7 +63,7 @@ const About = () => {
       </CardContent>
       {/* clients section */}
       <CardTitle className="text-2xl">Clients</CardTitle>
-      <CardContent className="flex gap-5 justify-between my-5 text-left">
+      <CardContent className="flex gap-2 xl:gap-5 justify-between my-5 text-left">
         {clients.map((item, index) => (
           <Image
             src={item}
@@ -71,7 +71,7 @@ const About = () => {
             width={100}
             height={100}
             key={index}
-            className="w-auto h-auto"
+            className="size-10 xl:size-auto"
           />
         ))}
       </CardContent>

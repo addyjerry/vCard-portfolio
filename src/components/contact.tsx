@@ -6,9 +6,9 @@ import { SendIcon } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div>
-      <CardTitle className="text-4xl -mt-15 hidden lg:block">Contact</CardTitle>
-      <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden lg:block"></div>
+    <div className="mx-5">
+      <CardTitle className="text-4xl -mt-15 hidden xl:block">Contact</CardTitle>
+      <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden xl:block"></div>
       <Map />
       <h2 className="text-2xl mt-5 font-bold">Contact Form</h2>
       <div>
