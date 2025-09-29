@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Card, CardContent, CardHeader } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 import Image from "next/image";
 import { personal } from "@/constants/siteConfig";
 import { ChevronDown, Github, Linkedin, X, Youtube } from "lucide-react";
