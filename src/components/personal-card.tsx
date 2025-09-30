@@ -35,7 +35,7 @@ const PersonalCard = () => {
               <Link href="https://www.linkedin.com/in/jerry-addy-193437249/">
                 <Linkedin className="size-5 xl:size-7" />
               </Link>
-              <Link href="https://x.com/JayCodes27">
+              <Link href="https://x.com/bishop_still_45">
                 <X className="size-5 xl:size-7" />
               </Link>
               <Link href="https://www.youtube.com/c/addyjerry">
