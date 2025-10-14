@@ -10,6 +10,11 @@ import {
 import { Calendar, LocationEditIcon, Mail, Phone } from "lucide-react";
 import { title } from "process";
 import React from "react";
+import About from "../components/about";
+import Resume from "../components/resume";
+import Projects from "@/components/projects";
+import Blog from "@/components/blog";
+import Contact from "@/components/contact";
 export const personal = {
   email: {
     title: "EMAIL",
@@ -138,12 +143,12 @@ export const projects = [
     ],
   },
   {
-    title: "Movie Website",
+    title: "Project Management App",
     description:
-      "A full-featured movie downloading website built with React and Node.js, featuring user authentication, video management, and a secure payment gateway.",
-    image: "/projects/watchgh.PNG",
-    link: "https://watchgh.netlify.app/",
-    name: "WATCH GH",
+      "A full-featured project management website built with Next js and Firebase, featuring user authentication, video management, and a secure payment gateway.",
+    image: "/projects/dashboard.PNG",
+    link: "https://taskidio.netlify.app/",
+    name: "TASKIDIO",
     techStack: [
       <ReactIcon key={0} />,
       <Tailwind key={1} />,
@@ -177,5 +182,29 @@ export const projects = [
       <ReactIcon key={2} />,
       <Redux key={3} />,
     ],
+  },
+];
+
+export const details = [
+  { id: 1, name: "About", component: <About /> },
+  {
+    id: 2,
+    name: "Resume",
+    component: <Resume />,
+  },
+  {
+    id: 3,
+    name: "Projects",
+    component: <Projects />,
+  },
+  {
+    id: 4,
+    name: "Blog",
+    component: <Blog />,
+  },
+  {
+    id: 5,
+    name: "Contact",
+    component: <Contact />,
   },
 ];
