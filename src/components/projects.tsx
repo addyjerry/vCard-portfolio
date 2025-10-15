@@ -7,9 +7,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div className="mx-5">
-      <CardTitle className="text-4xl -mt-15 hidden xl:block">
-        Projects
-      </CardTitle>
+      <CardTitle className="text-4xl hidden xl:block">Projects</CardTitle>
       <div className="bg-amber-400 w-10 h-2 rounded-2xl my-10 hidden xl:block"></div>
       {/* <CardDescription className="my-5 text-left">
         I am Creative Director and UI/UX Designer from Sydney, Australia,

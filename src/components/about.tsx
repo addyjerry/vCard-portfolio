@@ -11,11 +11,11 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div>
-      <CardHeader>
-        <CardTitle className="text-4xl -mt-15 hidden xl:block">About</CardTitle>
-        <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden xl:block"></div>
-        <CardDescription className="my-5 text-left">
+    <div className="w-full p-3">
+      <div>
+        <h2 className="text-4xl hidden xl:block pb-3">About</h2>
+        <div className="bg-amber-400 w-10 h-2 rounded-2xl hidden xl:block space-y-3"></div>
+        <p className="my-5 ">
           I am a Frontend Developer based in Accra, Ghana, passionate about
           building modern, responsive web applications. I specialize in
           translating design concepts into interactive user experiences using
@@ -25,10 +25,10 @@ const About = () => {
           seamless digital products. My goal is to deliver websites and apps
           that are fast, accessible, and user-friendly, helping brands connect
           with their audience in meaningful ways.
-        </CardDescription>
-      </CardHeader>
-      <CardTitle className="ml-5 text-2xl">What I do</CardTitle>
-      <CardContent className="flex flex-wrap gap-5 justify-start my-5 text-left">
+        </p>
+      </div>
+      <h1 className=" py-3 font-bold text-2xl">What I do</h1>
+      <div className="flex flex-wrap gap-5  justify-center my-5 text-left">
         {about.map((item) => (
           <Card className="flex flex-row max-w-88 p-5" key={item.title}>
             <Image src={item.icon} alt={item.title} width={50} height={50} />
@@ -38,7 +38,7 @@ const About = () => {
             </div>
           </Card>
         ))}
-      </CardContent>
+      </div>
       {/* testimonial section */}
       <CardTitle className="text-2xl">Testimonials</CardTitle>
       <CardContent className="flex flex-wrap gap-5 justify-between my-5 text-left">
@@ -63,8 +63,8 @@ const About = () => {
         ))}
       </CardContent>
       {/* clients section */}
-      <CardTitle className="text-2xl">Clients</CardTitle>
-      <CardContent className="flex gap-2 xl:gap-5 justify-between my-5 text-left">
+      <h1 className="text-2xl font-bold">Clients</h1>
+      <CardContent className="flex  justify-between my-5 ">
         {clients.map((item, index) => (
           <Image
             src={item}

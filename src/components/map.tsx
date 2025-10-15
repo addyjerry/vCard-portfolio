@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Map() {
   return (
-    <figure className="my-10 rounded-lg w-full overflow-hidden h-96 ">
+    <figure className="my-10 rounded-lg w-full h-96 ">
       <iframe
         width="500"
         height="300"

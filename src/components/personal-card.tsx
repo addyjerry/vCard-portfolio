@@ -10,7 +10,7 @@ const PersonalCard = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <Card className="top-20 xl:fixed p-3 border-2 border-gray-300 dark:border-gray-700 text-center justify-center max-w-[350px] md:max-w-full -ml-5 xl:-ml-0 place-self-center">
+    <Card className="lg:fixed top-20 2xl:items-center 2xl:top-[30%]  p-3 border-2 border-gray-300 dark:border-gray-700 text-center justify-center max-w-[350px] md:max-w-full  place-self-center">
       <div className="flex flex-row xl:flex-col gap-3 justify-center items-center w-full">
         <Card className="p-1 size-25 xl:size-35">
           <Image
