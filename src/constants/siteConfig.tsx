@@ -119,7 +119,7 @@ export const projects = [
     description:
       "An electronic repair-shop website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
     image: "/projects/adom.PNG",
-    link: "https://adomrepairshop.netlify.app/",
+    link: "https://adomrepairshop.vercel.app/",
     name: "ADOM REPAIRSHOP",
     techStack: [
       <NextJSIcon key={0} />,
@@ -133,7 +133,7 @@ export const projects = [
     description:
       "A full-featured service ordering website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
     image: "/projects/azpros.PNG",
-    link: "https://azpros.netlify.app/",
+    link: "https://azpros.vercel.app/",
     name: "AZPROS",
     techStack: [
       <ReactIcon key={0} />,
@@ -147,7 +147,7 @@ export const projects = [
     description:
       "A full-featured project management website built with Next js and Firebase, featuring user authentication, video management, and a secure payment gateway.",
     image: "/projects/dashboard.PNG",
-    link: "https://taskidio.netlify.app/",
+    link: "https://taskidio.vercel.app/",
     name: "TASKIDIO",
     techStack: [
       <ReactIcon key={0} />,
