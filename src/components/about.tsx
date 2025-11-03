@@ -67,7 +67,7 @@ const About = () => {
       </CardContent>
       {/* clients section */}
       <h1 className="text-2xl font-bold">Clients</h1>
-      <CardContent className="flex  justify-between my-5 ">
+      <CardContent className="flex  justify-between my-5 overflow-x-hidden">
         {clients.map((item, index) => (
           <Image
             src={item}
