@@ -183,6 +183,21 @@ export const projects = [
       <Redux key={3} />,
     ],
   },
+  {
+    title: "All round E-commerce App ",
+    description:
+      "A full-featured ecommerce website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
+    image: "/projects/shoplift.PNG",
+    link: "https://shoplifto.vercel.app/",
+    name: "SHOPLIFTO",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+      <ReactIcon key={2} />,
+
+      <Redux key={3} />,
+    ],
+  },
 ];
 
 export const details = [
