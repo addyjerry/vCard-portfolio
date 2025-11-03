@@ -41,9 +41,12 @@ const About = () => {
       </div>
       {/* testimonial section */}
       <CardTitle className="text-2xl">Testimonials</CardTitle>
-      <CardContent className="flex flex-wrap gap-5 justify-between my-5 text-left">
+      <CardContent className="flex flex-wrap gap-5 justify-center my-5 text-left ">
         {testimonials.map((item) => (
-          <Card className=" max-w-85 p-5 my-5" key={item.name}>
+          <Card
+            className=" max-w-85 p-5 my-5 place-self-center"
+            key={item.name}
+          >
             <div className="flex flex-row">
               <Card className="p-1 mr-3 -mt-10 ">
                 <Image
@@ -72,7 +75,7 @@ const About = () => {
             width={100}
             height={100}
             key={index}
-            className="size-10 xl:size-auto"
+            className="size-10 lg:size-auto"
           />
         ))}
       </CardContent>

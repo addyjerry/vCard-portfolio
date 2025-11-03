@@ -10,7 +10,7 @@ const PersonalCard = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <Card className="lg:fixed top-20 2xl:items-center 2xl:top-[30%]  p-3 border-2 border-gray-300 dark:border-gray-700 text-center justify-center max-w-[350px] md:max-w-full  place-self-center">
+    <Card className="xl:fixed top-20 2xl:items-center 2xl:top-[30%]  p-3 border-2 border-gray-300 dark:border-gray-700 text-center justify-center max-w-[350px] md:max-w-full  place-self-center">
       <div className="flex flex-row xl:flex-col gap-3 justify-center items-center w-full">
         <Card className="p-1 size-25 xl:size-35">
           <Image
@@ -53,7 +53,7 @@ const PersonalCard = () => {
       </div>
 
       {show ? (
-        <CardContent className="text-left mt-5 justify-start xl:hidden -ml-10 -mr-10 xl:mr-0 flex flex-col md:grid md:grid-cols-2 gap-5 ">
+        <CardContent className="text-left mt-5 justify-start lg:hidden -ml-10 -mr-10 xl:mr-0 flex flex-col md:grid md:grid-cols-2 gap-5 transform transition hover:-translate-y-1">
           <div className="flex gap-2 m-5 ">
             <Card className="p-3">{personal.email.icon}</Card>
 
@@ -88,7 +88,7 @@ const PersonalCard = () => {
           </div>
         </CardContent>
       ) : (
-        <CardContent className="text-left mt-5 justify-center m-auto hidden xl:block">
+        <CardContent className="text-left mt-5 justify-center m-auto hidden lg:block">
           <div className="flex gap-2 m-5 ">
             <Card className="p-3">{personal.email.icon}</Card>
 
