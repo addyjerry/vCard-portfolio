@@ -117,7 +117,7 @@ export const projects = [
   {
     title: "Ecommerce Website",
     description:
-      "A full-featured ecommerce website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
+      "An electronic repair-shop website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
     image: "/projects/adom.PNG",
     link: "https://adomrepairshop.netlify.app/",
     name: "ADOM REPAIRSHOP",
