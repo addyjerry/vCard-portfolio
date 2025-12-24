@@ -155,34 +155,7 @@ export const projects = [
       <Zustand key={2} />,
     ],
   },
-  {
-    title: "Restaurant Website",
-    description:
-      "A full-featured restaurant website built with React and Node.js, featuring user authentication, product management, and a secure payment gateway.",
-    image: "/projects/geritch.PNG",
-    link: "https://gericht-jerry.netlify.app/",
-    name: "GERICHT JERRY",
-    techStack: [
-      <NextJSIcon key={0} />,
-      <Tailwind key={1} />,
 
-      <Zustand key={3} />,
-    ],
-  },
-  {
-    title: "AI Note-taking Website",
-    description:
-      "A full-featured AI note-taking website built with React and Node.js, featuring user authentication, note management, and a secure payment gateway.",
-    image: "/projects/noteflow.PNG",
-    link: "https://ainoteflow.netlify.app/",
-    name: "AINOTEFLOW",
-    techStack: [
-      <NextJSIcon key={0} />,
-      <Tailwind key={1} />,
-      <ReactIcon key={2} />,
-      <Redux key={3} />,
-    ],
-  },
   {
     title: "All round E-commerce App ",
     description:
@@ -196,6 +169,19 @@ export const projects = [
       <ReactIcon key={2} />,
 
       <Redux key={3} />,
+    ],
+  },
+  {
+    title: "A news blog website ",
+    description:
+      "A full-featured blog website built with Next js, Node.js and Strapi for backend.",
+    image: "/projects/thenews.PNG",
+    link: "https://iotanews.vercel.app/",
+    name: "IOTANEWS",
+    techStack: [
+      <NextJSIcon key={0} />,
+      <Tailwind key={1} />,
+      <ReactIcon key={2} />,
     ],
   },
 ];
